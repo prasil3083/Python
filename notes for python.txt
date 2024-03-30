@@ -1,0 +1,35 @@
+@:use "import random" to generate random numbers
+@:and use "random.randrange(a,b)" for placing range
+@:To get the length of a string, use the len() function.
+@:To check if a certain phrase or character is present in a string, we can use the keyword in.
+
+1.Example
+Check if "free" is present in the following text:
+
+txt = "The best things in life are free!"
+print("free" in txt)
+
+Use it in an if statement:
+
+2.Example
+Print only if "free" is present:
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+
+@:To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+1.Example
+Check if "expensive" is NOT present in the following text:
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+Use it in an if statement:
+
+2.Example
+print only if "expensive" is NOT present:
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
